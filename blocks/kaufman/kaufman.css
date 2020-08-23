@@ -1,0 +1,9 @@
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+}

@@ -10,24 +10,7 @@
   margin: 0;
 }
 
-.feinman__link::after {
-  background-color: #000000;
-    position: absolute;
-    left: 50%;
-    display: block;
-    content: "";
-    height: 3px;
-    width: 0%;
-    transition: width .3s ease-in-out;
-    transform:translateX(-50%)
-}
-
 .feinman__link:hover {
-  opacity: 0.75;
-}
-
-.feinman__link:hover::after,
-.feinman__link:focus::after {
-  width: 100%;
-  opacity: 0.75;
+  opacity: 0.55;
+  transition: opacity 0.1s ease-in-out 0.1s;
 }

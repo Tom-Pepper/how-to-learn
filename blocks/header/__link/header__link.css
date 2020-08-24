@@ -5,24 +5,7 @@
   position: relative;
 }
 
-.header__link::after {
-  background-color: #2f80ed;
-  position: absolute;
-  left: 50%;
-  display: block;
-  content: "";
-  height: 3px;
-  width: 0%;
-  transition: width .3s ease-in-out;
-  transform:translateX(-50%)
-}
-
 .header__link:hover {
-  opacity: 0.75;
-}
-
-.header__link:hover::after,
-.header__link:focus::after {
-  width: 100%;
-  opacity: 0.75;
+  opacity: 0.55;
+  transition: opacity 0.1s ease-in-out 0.1s;
 }

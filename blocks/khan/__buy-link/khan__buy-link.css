@@ -1,28 +1,12 @@
 .khan__buy-link {
   line-height: 42px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
 }
 
-.khan__buy-link::after {
-  background-color: #2f80ed;
-  left: 50%;
-  display: block;
-  content: "";
-  height: 3px;
-  width: 0%;
-  transition: width .3s ease-in-out;
-  transform:translateX(0);
-}
-
 .khan__buy-link:hover {
-  opacity: 0.75;
-}
-
-.khan__buy-link:hover::after,
-.khan__buy-link:focus::after {
-  width: 100%;
-  opacity: 0.75;
+  opacity: 0.55;
+  transition: opacity 0.1s ease-in-out 0.1s;
 }

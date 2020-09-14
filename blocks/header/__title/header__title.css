@@ -2,10 +2,20 @@
   font-size: 102px;
   font-weight: bold;
   display: flex;
-  width: 730px;
+  max-width: 730px;
   line-height: 96px;
   margin-left: 64px;
   justify-content: flex-start;
   align-items: center;
   z-index: 97;
+}
+
+@media screen and (max-width: 425px) {
+  .header__title {
+  	font-size: 42px;
+  	line-height: 1.2;
+  	text-align: center;
+  	margin: -300px 0 0;
+  	padding: 0;
+  }	
 }

@@ -4,3 +4,11 @@
   top: 30px;
   left: 64px;
 }
+
+@media screen and (max-width: 425px) {
+  .logo_place_header {
+  	width: 100px;
+  	height: 20px;
+  	left: 24px;
+  }	
+}

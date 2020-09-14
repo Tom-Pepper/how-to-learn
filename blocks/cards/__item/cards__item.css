@@ -6,3 +6,17 @@
 .cards__item:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .cards__item {
+  	margin: 0 auto 60px;
+  }	
+
+  .cards__item:nth-last-child(-n + 2) {
+  	margin-bottom: 60px;
+  }
+
+  .cards__item:last-child {
+  	margin-bottom: 0;
+  }
+}

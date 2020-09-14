@@ -8,3 +8,9 @@
   margin: 0;
   padding-top: 80px;
 }
+
+@media screen and (max-width: 425px) {
+  .feinman {
+  	min-height: 500px;
+  }	
+}

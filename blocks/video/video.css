@@ -7,3 +7,9 @@
   margin-top: 100px;
   margin-bottom: -60px;
 }
+
+@media screen and (max-width: 425px) {
+  .video {
+  	margin-bottom: -145px;
+  }	
+}

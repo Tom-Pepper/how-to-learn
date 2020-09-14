@@ -8,3 +8,9 @@
   width: 1100px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 425px) {
+  .table {
+  	margin: 60px 25px 0;
+  }	
+}

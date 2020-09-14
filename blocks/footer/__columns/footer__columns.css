@@ -6,3 +6,9 @@
   margin-bottom: 40px;
   width: 90%;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__columns {
+  	flex-direction: column;
+  }	
+}

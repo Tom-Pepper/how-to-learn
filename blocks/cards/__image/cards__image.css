@@ -1,9 +1,15 @@
 .cards__image {
   width: 160px;
-  height: 160px;
+  /*height: 160px;*/
   margin: 0;
   margin-right: 40px;
   margin-left: 40px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+  .cards__image {
+  	width: 100%;
+  }	
 }

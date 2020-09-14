@@ -1,7 +1,13 @@
 .feinman__main-img {
   width: 867px;
-  height: 637px;
+  /*height: 637px;*/
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .feinman__main-img {
+  	width: 100%;
+  }  	
 }

@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .description {
+  	margin: 25px 0;
+  }	
 }

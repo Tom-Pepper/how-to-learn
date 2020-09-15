@@ -7,6 +7,13 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .header__main-illustration {
+    width: 430px;
+    height: 350px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header__main-illustration {
   	width: 380px;

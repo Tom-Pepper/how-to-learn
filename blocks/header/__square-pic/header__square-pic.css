@@ -8,6 +8,13 @@
   z-index: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header__square-pic {
+    width: 450px;
+    height: 450px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header__square-pic {
   	width: 400px;

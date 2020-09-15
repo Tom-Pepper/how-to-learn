@@ -1,7 +1,7 @@
 .cards {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 240px);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 100px;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -13,7 +13,9 @@
 
 @media screen and (max-width: 768px) {
   .cards {
-    column-gap: 0;
+    column-gap: 30px;
+    margin: 40px 40px 0;
+    width: auto;
   }
 }
 

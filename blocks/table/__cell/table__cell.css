@@ -7,6 +7,10 @@
 }
 
 @media screen and (max-width: 425px) {
+  .table__cell {
+    width: 100%;
+  }	
+
   .table__cell:nth-last-child(-n + 4) {
   	margin-bottom: 45px;
   }	

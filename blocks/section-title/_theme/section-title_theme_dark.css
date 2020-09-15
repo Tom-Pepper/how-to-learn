@@ -2,3 +2,9 @@
   color: white;
   margin-top: 90px;
 }
+
+@media screen and (max-width: 425px) {
+  .section-title_theme_dark	{
+  	margin-top: 70px;
+  }
+}

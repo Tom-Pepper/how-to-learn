@@ -7,3 +7,11 @@
   right: -210px;
   top: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .kaufman__triangle {
+    width: 800px;
+  	height: 800px;
+  	top: 20%;
+  }	
+}

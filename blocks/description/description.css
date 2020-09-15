@@ -5,6 +5,12 @@
   margin: 100px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .description {
+  	margin-top: 45px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .description {
   	margin: 25px 0;

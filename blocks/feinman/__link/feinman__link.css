@@ -18,7 +18,9 @@
 @media screen and (max-width: 425px) {
   .feinman__link {
     font-size: 26px;
-    top: 47%;
+    top: 40%;
+    right: 25%;
     margin: 20px;
+    z-index: 1;
   }  
 }

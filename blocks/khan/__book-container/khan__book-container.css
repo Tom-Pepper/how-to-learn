@@ -5,6 +5,12 @@
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 768px) {
+  .khan__book-container {
+  	flex-direction: column;
+  }		
+}
+
 @media screen and (max-width: 425px) {
   .khan__book-container {
   	flex-direction: column;

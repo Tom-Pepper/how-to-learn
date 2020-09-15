@@ -13,7 +13,7 @@
 @media screen and (max-width: 425px) {
   .header__title {
   	font-size: 53px;
-  	line-height: 1.2;
+  	line-height: 0.9;
   	text-align: center;
   	margin: -300px 0 0;
   	padding: 0;

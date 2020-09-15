@@ -9,3 +9,9 @@
   opacity: 0.55;
   transition: opacity 0.1s ease-in-out 0.1s;
 }
+
+@media screen and (max-width: 425px) {
+  .header__link {
+  	color: white;
+  }	
+}

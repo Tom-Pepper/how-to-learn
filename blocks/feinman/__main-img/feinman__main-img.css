@@ -6,6 +6,12 @@
   left: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .feinman__main-img {
+  	width: 100%;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .feinman__main-img {
   	width: 100%;

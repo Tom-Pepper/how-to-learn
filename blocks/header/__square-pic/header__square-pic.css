@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 425px) {
   .header__square-pic {
-  	width: 200px;
-  	height: 200px;
+  	width: 400px;
+  	height: 400px;
   }	
 }

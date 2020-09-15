@@ -7,3 +7,9 @@
   margin-top: 0;
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__column-links {
+  	margin-bottom: 32px;
+  }	
+}

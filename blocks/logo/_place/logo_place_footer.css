@@ -3,3 +3,9 @@
   height: 35px;
   background-image: url('../../../images/logo_place_footer.svg');
 }
+
+@media screen and (max-width: 425px) {
+  .logo_place_footer {
+    margin-bottom: 50px;
+  }	
+}

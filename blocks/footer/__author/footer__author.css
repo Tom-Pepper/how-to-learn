@@ -5,3 +5,9 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__author {
+  	display: none;
+  }	
+}

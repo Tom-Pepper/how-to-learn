@@ -10,6 +10,8 @@
 @media screen and (max-width: 768px) {
   .resources__logo-zone {
     flex-direction: column;
+    margin: 40px 0 40px;
+    padding: 0;
   }  
 }
 

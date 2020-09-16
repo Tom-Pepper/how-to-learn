@@ -6,6 +6,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .resources {
+  	margin: 70px 0 15px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .resources {
   	margin: 70px 25px 70px;

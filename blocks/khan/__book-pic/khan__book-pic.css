@@ -6,6 +6,14 @@
   object-position: center top;
 }
 
+@media screen and (max-width: 768px) {
+  .khan__book-pic {
+  	width: 400px;
+  	height: 400px;
+  	margin-right: 25px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .khan__book-pic {
   	width: 100%;

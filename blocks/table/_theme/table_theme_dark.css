@@ -5,6 +5,12 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .table_theme_dark {
+  	margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .table_theme_dark {
   	margin: 40px 25px;

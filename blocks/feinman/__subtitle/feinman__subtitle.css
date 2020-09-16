@@ -10,6 +10,13 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .feinman__subtitle {
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .feinman__subtitle {
   	font-size: 26px;

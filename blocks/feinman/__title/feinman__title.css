@@ -11,6 +11,13 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .feinman__title {
+    font-size: 90px;
+    line-height: 1;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .feinman__title {
     width: 100%;

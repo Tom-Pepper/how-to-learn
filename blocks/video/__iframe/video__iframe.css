@@ -10,6 +10,13 @@
   margin-right: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .video__iframe {
+  	width: 350px;
+  	height: 220px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .video__iframe {
   	height: 250px;

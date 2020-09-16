@@ -6,6 +6,12 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .table__cell:nth-last-child(-n + 4) {
+    margin-bottom: 40px;
+  }   
+}
+
 @media screen and (max-width: 425px) {
   .table__cell {
     width: 100%;

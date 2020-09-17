@@ -6,9 +6,15 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .khan {
+  	padding-top: 60px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .khan {
   	padding-top: 70px;
-  	padding-bottom: 25px;
+  	padding-bottom: 45px;
   }	
 }

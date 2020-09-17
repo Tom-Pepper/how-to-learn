@@ -11,6 +11,13 @@
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .two-columns__paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .two-columns__paragraph {
   	font-size: 16px;

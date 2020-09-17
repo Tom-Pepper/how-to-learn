@@ -7,6 +7,16 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .table__cell_theme_dark {
+    margin-bottom: 40px;
+  }
+
+  .table__cell_theme_dark:nth-last-child(-n + 5) {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .table__cell_theme_dark {
   	margin-bottom: 40px;

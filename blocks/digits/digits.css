@@ -6,6 +6,12 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .digits {
+    margin-top: 45px;	
+  }
+}
+
 @media screen and (max-width: 425px) {
   .digits {
   	margin-top: 70px;

@@ -8,6 +8,7 @@
   top: 50%;
   right: 48px;
   margin: 0;
+  z-index: 1;
 }
 
 .feinman__link:hover {
@@ -15,10 +16,18 @@
   transition: opacity 0.1s ease-in-out 0.1s;
 }
 
+@media screen and (max-width: 768px) {
+  .feinman__link {
+    top: 52%;
+    right: 75px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .feinman__link {
     font-size: 26px;
-    top: 47%;
+    top: 40%;
+    right: 25%;
     margin: 20px;
   }  
 }

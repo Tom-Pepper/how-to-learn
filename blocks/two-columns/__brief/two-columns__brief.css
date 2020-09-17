@@ -5,3 +5,10 @@
   font-weight: normal;
   width: 175px;
 }
+
+@media screen and (max-width: 768px) {
+  .two-columns__brief {
+  	font-size: 18px;
+  	line-height: 1.5;
+  }	
+}

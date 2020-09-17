@@ -5,3 +5,9 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .table__heading {
+  	font-size: 20px;
+  }	
+}

@@ -6,3 +6,9 @@
   margin-bottom: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .cards__title {
+  	margin: 25px 0 12px;
+  }	
+}

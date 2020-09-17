@@ -4,9 +4,16 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .two-columns__span-accent {
+  	font-size: 18px;
+  	line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .two-columns__span-accent {
-  	font-size: 20px;
+  	font-size: 16px;
   	line-height: 23px;
   }  	
 }

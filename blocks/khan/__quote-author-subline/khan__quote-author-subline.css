@@ -6,6 +6,12 @@
   margin-bottom: 68px;
 }
 
+@media screen and (max-width: 768px) {
+  .khan__quote-author-subline {
+    font-size: 18px;	
+  }
+}
+
 @media screen and (max-width: 425px) {
   .khan__quote-author-subline {
   	margin-bottom: 30px;
